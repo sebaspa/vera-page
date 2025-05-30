@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-inter: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-gfs-didot: 'GFS Didot', serif;
+
+  --color-vera-green-50: #DDF1E5;
+  --color-vera-green-100: #cdd5ce;
+  --color-vera-green-200: #9baa9c;
+  --color-vera-green-300: #69806b;
+  --color-vera-green-400: #375539;
+  --color-vera-green-500: #052b08;
+  --color-vera-green-600: #042206;
+  --color-vera-green-700: #031a05;
+  --color-vera-green-800: #021103;
+  --color-vera-green-900: #010902;
+}
+
+/*Main menu*/
+
+.mainMenu {
+  @apply flex items-center gap-7;
+}
+
+.mainMenu li a {
+  @apply text-vera-green-300 text-lg xl:text-xl font-inter font-normal border-b-2 border-transparent hover:text-vera-green-500 hover:border-vera-green-500;
+}
+
+.mainMenu li a.active {
+  @apply text-vera-green-500 font-medium border-vera-green-500;
+}
+
+/*Secondary menu*/
+
+.secondaryMenu {
+  @apply flex items-center justify-end gap-7;
+}
+
+.secondaryMenu li a {
+  @apply text-vera-green-500 text-lg xl:text-xl font-inter font-medium;
+}
+
+/*Section aloe*/
+
+.aloe {
+  @apply h-[1180px] w-auto -top-20;
+}
+
+.aloe-1 {
+  left: calc(50% + 30px);
+  top: -750px;
+  rotate: 70deg;
+}
+
+.aloe-2 {
+  right: calc(50% - 0px);
+  top: -750px;
+  rotate: -70deg;
+}
+
+

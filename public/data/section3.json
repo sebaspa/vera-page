@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "img": "/src/assets/aloe-vera.webp",
+    "title": "Aloe Vera",
+    "description": "Provides hydration, soothes irritation, and promotes healing.",
+    "className": "top-1/2 left-0 -mt-[300px]"
+  },
+  {
+    "id": 2,
+    "img": "/src/assets/squalane.webp",
+    "title": "Squalane",
+    "description": "Helps maintain skin’s moisture balance and improves skin texture.",
+    "className": "top-1/2 right-0 -mt-[300px]"
+  },
+  {
+    "id": 3,
+    "img": "/src/assets/vitamin-e.webp",
+    "title": "Vitamin E",
+    "description": "Acts as an antioxidant, protecting the skin from free radical damage and promoting healing.",
+    "className": "top-1/2 left-[100px] -mt-[50px]"
+  },
+  {
+    "id": 4,
+    "img": "/src/assets/green-tea.webp",
+    "title": "Green Tea Extract",
+    "description": "Contains antioxidants and anti-inflammatory properties that calm and protect the skin.",
+    "className": "top-1/2 right-[100px] -mt-[50px]"
+  },
+  {
+    "id": 5,
+    "img": "/src/assets/shea-butter.webp",
+    "title": "Shea Butter",
+    "description": "Offers rich emollients, deeply moisturizing and nourishing the skin.",
+    "className": "bottom-[100px] left-1/2 -ml-[140px]"
+  }
+]

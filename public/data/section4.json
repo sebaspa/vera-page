@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "img": "/src/assets/hydratation.webp",
+    "title": "Hydratation",
+    "description": "Provides hydration, soothes irritation, and promotes healing.",
+    "className": ""
+  },
+  {
+    "id": 2,
+    "img": "/src/assets/skin.webp",
+    "title": "Soothes Irritated Skin",
+    "description": "Calms redness and irritation, perfect for sensitive skin.",
+    "className": "flex-row-reverse"
+  },
+  {
+    "id": 3,
+    "img": "/src/assets/promotes.webp",
+    "title": "Promotes Healing",
+    "description": "Boosts skin's ability to heal and regenerate.",
+    "className": ""
+  },
+  {
+    "id": 4,
+    "img": "/src/assets/rich.webp",
+    "title": "Rich in Antioxidants",
+    "description": "Fights aging and repairs skin with essential vitamins.",
+    "className": "flex-row-reverse"
+  }
+]
